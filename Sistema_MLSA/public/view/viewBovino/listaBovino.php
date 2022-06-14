@@ -12,6 +12,9 @@
             <div class="title-cards">
                 <h2>Bovinos</h2>
             </div>
+            <div>
+                                
+            </div>
             <div class="card-body">
 
                 <div class="row ">
@@ -30,17 +33,13 @@
                                     <th class="bg-info">Facilidad parto</th>
                                 </tr>
                             </thead>
-
                         </table>
                     </div>
 
                 </div>
 
-
             </div>
-
         </div>
-
     </div>
 </body>
 
