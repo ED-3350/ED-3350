@@ -11,7 +11,40 @@
             <div class="title-cards">
                 <h2>Razas</h2>
             </div>
-            <button type="button" class="btn btn-primary">Crear Raza</button>
+            <div>
+                <h3>Agregar nuev raza</h3>
+                <form autocomplete="off" class="form" method="POST" id="ingresarRazaF" enctype="multipart/form-data">
+                                        <div >
+                                            <label>Nombre raza </label>
+                                            <div>
+                                                <input class="form-control" id="Nombre" name="Nombre"type="text">
+                                            </div>
+                                        </div>
+                                        <div >
+                                            <label>Descripcion </label>
+                                            <div>
+                                                <input class="form-control" id="Descripcion" name="Descripcion"type="text">
+                                            </div>
+                                        </div>
+                                        <div >
+                                            <label>Abreviatura </label>
+                                            <div>
+                                                <input class="form-control" id="Abreviatura" name="Abreviatura"type="text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label ></label>
+                                            <div >
+                                                <input class="btn-primary" id="registrarRaza" type="submit" value="Registrar" >
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+
+            </div>
+            
             <div class="card-body">
 
                 <div class="row ">

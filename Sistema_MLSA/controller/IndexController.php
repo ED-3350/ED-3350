@@ -30,7 +30,7 @@ class IndexController {
         $this->view->show("/view/viewToro/listaToro.php", 1, 0);
     }
     public function pruebas() {
-        $this->view->show("bodyPrincipal.php", 1, 0);
+        $this->view->show("bodyPrincipal_1.php", 1, 0);
     }
 
 
